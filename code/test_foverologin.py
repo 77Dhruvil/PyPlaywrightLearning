@@ -10,6 +10,7 @@ def test_foverologin():
 
     #2. Code INteraction with the html web page
     page.goto("https://fovero.app/signin")
+    breakpoint()
 
     #3. Validation
     expect(page).to_have_title("Fovero")
